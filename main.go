@@ -47,7 +47,7 @@ import (
 	fmt.Println(string(bs))
  }
 
- //FIXME: Ways to Print Errors
+ //FIXME: Ways to Print Errors 	
  func printErrors_(){
 	_, err:=os.Open("adasd")
 	if err!= nil{
